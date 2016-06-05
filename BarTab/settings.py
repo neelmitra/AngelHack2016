@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'foobar',
-    'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -81,11 +80,11 @@ WSGI_APPLICATION = 'BarTab.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'bartab',  # Or path to database file if using sqlite3.
+        'NAME': 'sudo3',  # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
-        'USER': 'bartab',
-        'PASSWORD': 'bartab24',
-        'HOST': 'bartab2.cfo5uaqsienl.us-east-1.rds.amazonaws.com',
+        'USER': 'bartab3',
+        'PASSWORD': 'foobar24',
+        'HOST': 'foobar3.cfo5uaqsienl.us-east-1.rds.amazonaws.com',
         'PORT': '',  # Set to empty string for default.
     }
 }

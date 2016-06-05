@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Tab,Items
+from .models import Tab,Item
 
 
 class TabSerializer(serializers.ModelSerializer):
