@@ -9,4 +9,5 @@ router.register(r'tab', views.TabDetail)
 
 urlpatterns = [
     url(r'^', include(router.urls)),
+    url(r'pin/(?P<login>.+)/$', views.Pin.as_view())
 ]

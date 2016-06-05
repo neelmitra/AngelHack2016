@@ -8,3 +8,5 @@ class TabSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tab
         fields = ('owner', 'active', 'created', 'bar_name', 'items')
+
+
